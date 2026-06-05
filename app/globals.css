@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-virage-creme: #F4F1ED;
+  --color-virage-anthracite: #1A1D20;
+  --color-virage-bleu: #3B5B7A;
+  --color-virage-brun: #8B5E3C;
+  --color-virage-olive: #5A7D6E;
+  --color-meta-gray: #6B6B6B;
+  --font-serif: 'Tiempos Text', 'Source Serif 4', Georgia, serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-virage-anthracite bg-virage-creme antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-serif font-semibold;
+  }
+}
+
+@layer utilities {
+  .prose-virage {
+    @apply font-serif text-lg leading-relaxed;
+  }
+  .prose-virage h1 { @apply text-4xl lg:text-5xl leading-tight; }
+  .prose-virage h2 { @apply text-2xl lg:text-3xl mt-10 mb-4; }
+  .prose-virage h3 { @apply text-xl mt-8 mb-3 font-medium; }
+  .prose-virage p { @apply mb-5; }
+  .prose-virage ul { @apply list-disc pl-6 mb-5 space-y-2; }
+  .prose-virage li { @apply leading-relaxed; }
+  .prose-virage strong { @apply font-semibold; }
+  .prose-virage a { @apply text-virage-bleu underline underline-offset-2 hover:text-virage-brun; }
+  .prose-virage blockquote {
+    @apply border-l-4 border-virage-olive pl-6 italic text-meta-gray my-8;
+  }
+}
