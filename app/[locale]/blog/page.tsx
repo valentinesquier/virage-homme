@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Blog",
   description:
-    "Articles sur la périménopause : symptômes, gestion sans hormones, sport, alimentation, sommeil et vie professionnelle. Par Katia.",
+    "Articles sur l'andropause : symptômes, actions concrètes, sommeil, force, alimentation et vitalité masculine après 40 ans. Par Antoine.",
 };
 
 export default function BlogPage() {
@@ -30,8 +30,8 @@ export default function BlogPage() {
           Blog
         </h1>
         <p className="font-serif text-lg text-meta-gray mb-10 max-w-2xl">
-          Témoignages, analyses et protocoles sur la périménopause. Sans hormones,
-          sans phyto, sans bullshit. Par Katia, 47 ans.
+          Témoignages, analyses et protocoles sur l&apos;andropause. Sans compléments
+          miracles, sans gourous, sans bullshit. Par Antoine, 45 ans.
         </p>
 
         {articles.length > 0 ? (

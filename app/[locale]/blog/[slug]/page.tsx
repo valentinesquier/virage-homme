@@ -124,8 +124,8 @@ export default async function BlogArticlePage({ params }: Props) {
           <p className="font-sans text-xs text-meta-gray leading-relaxed">
             <strong>Avertissement :</strong> Témoignage personnel, fictionnalisé pour
             préserver l&apos;anonymat des proches. Ce que je raconte ici ne remplace pas un
-            avis médical. Pour toute décision concernant un traitement (notamment hormonal),
-            consultez votre médecin traitant ou un gynécologue formé à la ménopause.
+            avis médical. Pour toute décision concernant un traitement, notamment hormonal,
+            consultez votre médecin traitant, un urologue ou un endocrinologue.
           </p>
         </div>
 
