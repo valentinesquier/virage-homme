@@ -59,7 +59,7 @@ export function HeroProduct({ product }: HeroProductProps) {
           {/* Image placeholder */}
           <div className="hidden lg:block">
             <div className="aspect-[3/4] bg-virage-homme-anthracite/5 rounded-lg border border-virage-homme-anthracite/10 flex items-center justify-center">
-              <p className="font-serif text-virage-homme-anthracite/30 text-lg">Photo Katia</p>
+              <p className="font-serif text-virage-homme-anthracite/30 text-lg">Visuel du guide Antoine</p>
             </div>
           </div>
         </div>
