@@ -12,4 +12,4 @@ export interface BlogArticle {
   readingTime?: number;
 }
 
-export type BlogCategory = "symptomes" | "gestion" | "vie-pro";
+export type BlogCategory = "symptomes" | "agir" | "vivre-avec";
